@@ -19,8 +19,15 @@ To run the project locally, follow these steps:
 3. Install dependencies: This project uses **PyQt5** for the GUI. Install the required Python packages using pip: `pip install -r requirements.txt`
 4. Run the project: Start the application: `python Main.py`
 ## Usage
-Once the application is running, you will see a graphical interface with controls for both internal and external elevator requests. External requests are made by pressing the buttons outside the elevator, while internal requests are made by passengers inside the elevator. - **External Requests**: Users can request the elevator to go to a specific floor (up or down). - **Internal Requests**: Once inside, users can press buttons to go to a desired floor. The elevator will handle requests efficiently, ensuring minimal delays and optimal movement between floors.
+Once the application is running, you will see a graphical interface with controls for both internal and external elevator requests. External requests are made by pressing the buttons outside the elevator, while internal requests are made by passengers inside the elevator. 
+- **External Requests**: Users can request the elevator to go to a specific floor (up or down).
+- **Internal Requests**: Once inside, users can press buttons to go to a desired floor. The elevator will handle requests efficiently, ensuring minimal delays and optimal movement between floors.
 ## Features
-- **Multi-Elevator Simulation**: The system can simulate multiple elevators at once. - **Optimized Movement**: Avoids unnecessary direction changes to minimize wear. - **Priority Management**: Balances fairness in response times for all users. - **Real-Time Simulation**: The movement and request processing are visualized in real time using PyQt5.
+- **Multi-Elevator Simulation**: The system can simulate multiple elevators at once.
+- **Optimized Movement**: Avoids unnecessary direction changes to minimize wear.
+- **Priority Management**: Balances fairness in response times for all users.
+- **Real-Time Simulation**: The movement and request processing are visualized in real time using PyQt5.
 ## Technologies Used
-- **Python**: The main programming language. - **PyQt5**: For creating the graphical user interface. - **Enums**: To define elevator states and movement directions.
+- **Python**: The main programming language.
+- **PyQt5**: For creating the graphical user interface.
+- **Enums**: To define elevator states and movement directions.
